@@ -6,7 +6,7 @@ import os
 
 urlpatterns = [
     path('', include('my_app.urls')),
-    path('admin/', admin.site.urls),
+    path(os.getenv('ADMIN_URL') + '/admin/', admin.site.urls),
 ]
 
 if settings.DEBUG: # denotes in DEVELOPMENT not PRODUCTION!!!
