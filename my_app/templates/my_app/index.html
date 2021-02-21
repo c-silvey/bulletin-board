@@ -1,0 +1,16 @@
+{% extends 'my_app/base.html' %}
+{% load static %}
+
+
+{% block content %}
+<div class="container">
+  <div id="bulletin-board">
+    <h3 id="notes-header">Notes.</h3>
+    <ul>
+      {% for note in notes %}
+      <li>{{ note.timestamp }} {{ note.alias }}-- '{{ note.note }}'</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endblock %}

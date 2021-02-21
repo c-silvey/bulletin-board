@@ -1,0 +1,44 @@
+/* RESET */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Utilities */
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+/* Index */
+
+#welcome {
+  color: blue;
+  text-align: center;
+}
+
+#bulletin-board {
+  margin-top: 20px;
+}
+
+#bulletin-board ul {
+  text-align: center;
+}
+
+#bulletin-board ul li{
+  padding: 10px;
+}
+
+#notes-header {
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+/* About */
+
+#about-text {
+  margin-top: 20px;
+  text-align: center;
+}
